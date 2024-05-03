@@ -477,7 +477,7 @@ section .container {
 
 .strength-name {
   font-weight: bold; /* Make strength name bold */
-  font-size: 1.3em; /* Increase font size */
+  font-size: 1.25em; /* Increase font size */
   margin-bottom: 10px; /* Add margin below strength name */
 }
 
