@@ -381,165 +381,240 @@
 
 
 
-<!-- ======= Projects Section ======= -->
-<!-- Projects Section -->
-<section id="projects" class="projects">
-  <div class="container">
 
-    <div class="section-title">
-      <h2>Projects</h2>
-      <p>My Projects</p>
-    </div>
 
-    <div class="row">
+<!DOCTYPE html>
+<html lang="en">
 
-      <!-- Project 1 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bxl-dribbble"></i></div>
-          <h4><a href="https://umn.maps.arcgis.com/apps/dashboards/2944dc9f8af345c99b238ceeb9083e80" target="_blank">Mapping Powerplants in the United States</a></h4>
-          <p>
-            The "EnerGeoMatrix: Analyzing the Energy Horizon Across the United States" dashboard, crafted with an integrated suite of tools for spatial data analysis, visualization, and application development—including ArcGIS Pro and Online, Map Viewer, Experience Builder, Dashboard, GitHub, and Codepen—demonstrates proficiency in leveraging diverse technologies for comprehensive geospatial projects. Offering insightful analysis of power generation within the United States, it provides valuable insights into the nation's energy landscape.</p>
-          <div class="icon-img">
-            <a href="https://umn.maps.arcgis.com/apps/dashboards/2944dc9f8af345c99b238ceeb9083e80" target="_blank">
-              <img src="assets\img\Projects\1.png" alt="Mapping Powerplants in the United States" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+</head>
+
+<body>
+
+  <!-- ======= Projects Section ======= -->
+  <section id="projects" class="projects">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p>My Projects</p>
       </div>
 
-      <!-- Project 2 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-file"></i></div>
-          <h4><a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_d9d22ef3c4644b60add6d467dbdd3034.pdf" target="_blank">Exploring Socioeconomic Patterns: A County Level Analysis</a></h4>
-          <p>This project examines the socioeconomic status of counties in Minnesota, California, Texas, and New York, focusing on socioeconomic indicators, utilizing data from 2010 and 2017 to analyze pre-pandemic and post-Great Recession conditions.</p>
-          <div class="icon-img">
-            <a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_d9d22ef3c4644b60add6d467dbdd3034.pdf" target="_blank">
-              <img src="assets\img\Projects\2.png" alt="Exploring Socioeconomic Patterns: A County Level Analysis" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
-      </div>
+      <ul class="nav nav-tabs" id="projectTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="year-2024-tab" data-bs-toggle="tab" data-bs-target="#year-2024" type="button" role="tab" aria-controls="year-2024" aria-selected="true">2024</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="year-2023-tab" data-bs-toggle="tab" data-bs-target="#year-2023" type="button" role="tab" aria-controls="year-2023" aria-selected="false">2023</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="year-2022-tab" data-bs-toggle="tab" data-bs-target="#year-2022" type="button" role="tab" aria-controls="year-2022" aria-selected="false">2022</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="others-tab" data-bs-toggle="tab" data-bs-target="#others" type="button" role="tab" aria-controls="others" aria-selected="false">Others</button>
+        </li>
+      </ul>
 
-      <!-- Project 3 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-tachometer"></i></div>
-          <h4><a href="https://drive.google.com/file/d/16cL_Pw0m0OTeqr_LMgtJ9nfpyV3iD_cC/view?usp=sharing" target="_blank">Integration of GIS and MCDM for Evaluation of Combined Cycle Power Plant Locality</a></h4>
-          <p>An individual semester project done for GIS 5571 (ArcGIS-I) course., I utilized integrated GIS and Multi-Criteria Decision Analysis to identify optimal sites for Combined Cycle Power Plants. The project involved data wrangling, historical map analysis, image georeferencing, and creating a GIS database from various sources that includes USGS. The use of the Analytic Hierarchy Process (AHP) and Exploratory Data Analysis (EDA) streamlined the site suitability process, with decision makers' preferences influencing the final map. Additionally, I implemented Python scripting to build an ETL, automating geoprocessing tasks for a faster, more efficient, and scalable analysis making it easier to repeat with updated data.</p>
-          <div class="icon-img">
-            <a href="https://drive.google.com/file/d/16cL_Pw0m0OTeqr_LMgtJ9nfpyV3iD_cC/view?usp=sharing" target="_blank">
-              <img src="assets\img\Projects\3.jpg" alt="Integration of GIS and MCDM for Evaluation of Combined Cycle Power Plant Locality" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
-      </div>
+      <div class="tab-content" id="projectTabsContent">
 
-      <!-- Project 4 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-world"></i></div>
-          <h4><a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_564504ea78464d8c89474852e3921208.pdf" target="_blank">Stormwater Study Area Prioritization Analysis</a></h4>
-          <p>This project aims to conduct a vulnerability assessment focusing on flooding, water quality, and socially vulnerable communities to optimize investments and prioritize mitigation efforts in areas most susceptible to extreme flooding.</p>
-          <div class="icon-img">
-            <a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_564504ea78464d8c89474852e3921208.pdf" target="_blank">
-              <img src="assets\img\Projects\4.png" alt="Stormwater Study Area Prioritization Analysis" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
-      </div>
+        <!-- 2024 Tab Pane -->
+        <div class="tab-pane fade show active" id="year-2024" role="tabpanel" aria-labelledby="year-2024-tab">
+          <div class="row">
+            <!-- Project 6 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="https://github.com/Zain1443/GIS-8990-Research-Problems-in-GIS" target="_blank">Visual Exploration of Spatial-Temporal Dynamics of Air Quality using Volunteered Geographic Information</a></h4>
+                <p>This study analyzes air quality dynamics in Minneapolis using Purple Air PM 2.5 data, correlating factors like human mobility, weather events, and social environment to inform policy decisions, offering a scalable visual exploration workflow with volunteered geographic information.</p>
+                <div class="icon-img">
+                  <a href="https://github.com/Zain1443/GIS-8990-Research-Problems-in-GIS" target="_blank">
+                    <img src="assets\img\Projects\6.png" alt="Visual Exploration of Spatial-Temporal Dynamics of Air Quality using Volunteered Geographic Information" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 13 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="https://drive.google.com/file/d/1DCTuvu13ru8q-lbe8V83x8Q-JEFRfLhJ/view?usp=sharing" target="_blank">Assessment of Carbon Storage Potential</a></h4>
+                <p>The project focuses on analyzing carbon storage dynamics within a study area, utilizing datasets such as Land Use and Land Cover (LULC) and biomass carbon density maps. Geoprocessing tools are employed to extract and analyze carbon storage values across different land cover types. The project emphasizes meticulous data validation and adjustment to ensure accuracy and reliability, contributing to meaningful insights into carbon storage patterns.</p>
+                <div class="icon-img">
+                  <a href="https://drive.google.com/file/d/1DCTuvu13ru8q-lbe8V83x8Q-JEFRfLhJ/view?usp=sharing" target="_blank">
+                    <img src="assets\img\Projects\13.png" alt="Assessment of Carbon Storage Potential" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
 
-      <!-- Project 5 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-arch"></i></div>
-          <h4><a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_3730cc3af79848a2943eacd743dc18df.pdf" target="_blank">District Level Site Suitability of CCPP: EESD Conference Paper</a></h4>
-          <p>A conference paper presented at Energy, Environment, and Sustainable Development 2022.</p>
-          <div class="icon-img">
-            <a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_3730cc3af79848a2943eacd743dc18df.pdf" target="_blank">
-              <img src="assets\img\Projects\5.jpg" alt="District Level Site Suitability of CCPP: EESD Conference Paper" style="width: 100%; height: auto;">
-            </a>
+            <!-- Project 14 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="https://github.com/Zain1443/BMSB_Project/tree/main/Final%20Project" target="_blank">Tracking the Spread of Brown Marmorated Stink Bug (BMSB) Populations in Minnesota</a></h4>
+                <p>The introduction of BMSB poses significant risks to Minnesota's agricultural crops, landscape plants, and residential environments. To mitigate potential impacts, it's crucial to track BMSB populations and rank cities based on prevalence. This project employs spatial interaction modeling techniques to simulate BMSB spread, facilitating MNDNR in informed decision-making and resource allocation for pest management efforts. Using three Huff models with varying alpha values (1.5, 1.75, 2), we simulated the flow of BMSB from a seed city and rank cities where BMSB is prevalent. Following quality assessment, results are made accessible via an API for integration into ArcGIS Online Map Viewer.</p>
+                <div class="icon-img">
+                  <a href="https://github.com/Zain1443/BMSB_Project/tree/main/Final%20Project" target="_blank">
+                    <img src="assets\img\Projects\14.png" alt="Tracking the Spread of Brown Marmorated Stink Bug (BMSB) Populations in Minnesota" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Project 6 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-slideshow"></i></div>
-          <h4><a href="https://github.com/Zain1443/GIS-8990-Research-Problems-in-GIS" target="_blank">Visual Exploration of Spatial-Temporal Dynamics of Air Quality using Volunteered Geographic Information</a></h4>
-          <p>This study analyzes air quality dynamics in Minneapolis using Purple Air PM 2.5 data, correlating factors like human mobility, weather events, and social environment to inform policy decisions, offering a scalable visual exploration workflow with volunteered geographic information.</p>
-          <div class="icon-img">
-            <a href="https://github.com/Zain1443/GIS-8990-Research-Problems-in-GIS" target="_blank">
-              <img src="assets\img\Projects\6.png" alt="Visual Exploration of Spatial-Temporal Dynamics of Air Quality using Volunteered Geographic Information" style="width: 100%; height: auto;">
-            </a>
+        <!-- 2023 Tab Pane -->
+        <div class="tab-pane fade" id="year-2023" role="tabpanel" aria-labelledby="year-2023-tab">
+          <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4><a href="https://umn.maps.arcgis.com/apps/dashboards/2944dc9f8af345c99b238ceeb9083e80" target="_blank">Mapping Powerplants in the United States</a></h4>
+                <p>The "EnerGeoMatrix: Analyzing the Energy Horizon Across the United States" dashboard, crafted with an integrated suite of tools for spatial data analysis, visualization, and application development—including ArcGIS Pro and Online, Map Viewer, Experience Builder, Dashboard, GitHub, and Codepen—demonstrates proficiency in leveraging diverse technologies for comprehensive geospatial projects. Offering insightful analysis of power generation within the United States, it provides valuable insights into the nation's energy landscape.</p>
+                <div class="icon-img">
+                  <a href="https://umn.maps.arcgis.com/apps/dashboards/2944dc9f8af345c99b238ceeb9083e80" target="_blank">
+                    <img src="assets\img\Projects\1.png" alt="Mapping Powerplants in the United States" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4><a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_d9d22ef3c4644b60add6d467dbdd3034.pdf" target="_blank">Exploring Socioeconomic Patterns: A County Level Analysis</a></h4>
+                <p>This project examines the socioeconomic status of counties in Minnesota, California, Texas, and New York, focusing on socioeconomic indicators, utilizing data from 2010 and 2017 to analyze pre-pandemic and post-Great Recession conditions.</p>
+                <div class="icon-img">
+                  <a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_d9d22ef3c4644b60add6d467dbdd3034.pdf" target="_blank">
+                    <img src="assets\img\Projects\2.png" alt="Exploring Socioeconomic Patterns: A County Level Analysis" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4><a href="https://drive.google.com/file/d/16cL_Pw0m0OTeqr_LMgtJ9nfpyV3iD_cC/view?usp=sharing" target="_blank">Integration of GIS and MCDM for Evaluation of Combined Cycle Power Plant Locality</a></h4>
+                <p>An individual semester project done for GIS 5571 (ArcGIS-I) course., I utilized integrated GIS and Multi-Criteria Decision Analysis to identify optimal sites for Combined Cycle Power Plants. The project involved data wrangling, historical map analysis, image georeferencing, and creating a GIS database from various sources that includes USGS. The use of the Analytic Hierarchy Process (AHP) and Exploratory Data Analysis (EDA) streamlined the site suitability process, with decision makers' preferences influencing the final map. Additionally, I implemented Python scripting to build an ETL, automating geoprocessing tasks for a faster, more efficient, and scalable analysis making it easier to repeat with updated data.</p>
+                <div class="icon-img">
+                  <a href="https://drive.google.com/file/d/16cL_Pw0m0OTeqr_LMgtJ9nfpyV3iD_cC/view?usp=sharing" target="_blank">
+                    <img src="assets\img\Projects\3.jpg" alt="Integration of GIS and MCDM for Evaluation of Combined Cycle Power Plant Locality" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_564504ea78464d8c89474852e3921208.pdf" target="_blank">Stormwater Study Area Prioritization Analysis</a></h4>
+                <p>This project aims to conduct a vulnerability assessment focusing on flooding, water quality, and socially vulnerable communities to optimize investments and prioritize mitigation efforts in areas most susceptible to extreme flooding.</p>
+                <div class="icon-img">
+                  <a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_564504ea78464d8c89474852e3921208.pdf" target="_blank">
+                    <img src="assets\img\Projects\4.png" alt="Stormwater Study Area Prioritization Analysis" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 8 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4><a href="https://drive.google.com/file/d/12zTKpXI_UwVx36Of0C28AMdxkdLm5lFI/view?usp=sharing" target="_blank">Geospatial Visualization of Personal Mobility Patterns using Google Maps</a></h4>
+                <p>This project involved extracting and analyzing personal mobility patterns from Google Maps Timeline data in GeoJSON format, using ArcGIS Pro to create informative visualizations.</p>
+                <div class="icon-img">
+                  <a href="https://drive.google.com/file/d/12zTKpXI_UwVx36Of0C28AMdxkdLm5lFI/view?usp=sharing" target="_blank">
+                    <img src="assets\img\Projects\8.png" alt="Geospatial Visualization of Personal Mobility Patterns using Google Maps" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      
-      <!-- Project 7 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-arch"></i></div>
-          <h4><a href="https://www.sciencedirect.com/science/article/abs/pii/S2352485522001256" target="_blank">Shoreline Change Assessment of Indus delta using GIS-DSAS and Satellite Data</a></h4>
-          <p>A research article published in Regional Studies in Marine Science Journal. worked to research on the continual threat of coastal erosion in the Indus River Delta, Pakistan. Utilizing satellite data and DSAS 4.3 integrated with ArcGIS, the study revealed significant shoreline degradation, impacting agricultural lands and coastal communities from 1972 to 2017.</p>
-          <div class="icon-img">
-            <a href="https://www.sciencedirect.com/science/article/abs/pii/S2352485522001256" target="_blank">
-              <img src="assets\img\Projects\7.jpg" alt="Shoreline Change Assessment of Indus delta using GIS-DSAS and Satellite Data" style="width: 100%; height: auto;">
-            </a>
+        <!-- 2022 Tab Pane -->
+        <div class="tab-pane fade" id="year-2022" role="tabpanel" aria-labelledby="year-2022-tab">
+          <div class="row">
+            <!-- Project 9 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="#">District Level Site Suitability of CCPP: EESD Conference Paper</a></h4>
+                <p>A conference paper presented at Energy, Environment, and Sustainable Development 2022.</p>
+                <div class="icon-img">
+                  <a href="#">
+                    <img src="assets\img\Projects\9.jpg" alt="District Level Site Suitability of CCPP: EESD Conference Paper" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 10 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                <h4><a href="#">Mapping existing underground gas pipeline network of several cities</a></h4>
+                <p>A team project that I was part of while working for Sui Southern Gas Company Ltd. It involved surveying, collecting and compiling all relevant data, digitizing, extensive data wrangling, analysis, and mapping.</p>
+                <div class="icon-img">
+                  <a href="#">
+                    <img src="assets\img\Projects\10.jpg" alt="Mapping existing underground gas pipeline network of several cities" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 12 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-slideshow"></i></div>
+                <h4><a href="https://storymaps.arcgis.com/stories/e385aa7fe7d44988b76a0c5ea8eedc23" target="_blank">A breakdown of poverty in Minnesota</a></h4>
+                <p>A class project that I did for GIS 5511 (Principles of Cartography) course.</p>
+                <div class="icon-img">
+                  <a href="https://storymaps.arcgis.com/stories/e385aa7fe7d44988b76a0c5ea8eedc23" target="_blank">
+                    <img src="assets\img\Projects\12.png" alt="A breakdown of poverty in Minnesota" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Project 8 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-world"></i></div>
-          <h4><a href="https://drive.google.com/file/d/12zTKpXI_UwVx36Of0C28AMdxkdLm5lFI/view?usp=sharing" target="_blank">Geospatial Visualization of Personal Mobility Patterns using Google Maps</a></h4>
-          <p>This project involved extracting and analyzing personal mobility patterns from Google Maps Timeline data in GeoJSON format, using ArcGIS Pro to create informative visualizations.</p>
-          <div class="icon-img">
-            <a href="https://drive.google.com/file/d/12zTKpXI_UwVx36Of0C28AMdxkdLm5lFI/view?usp=sharing" target="_blank">
-              <img src="assets\img\Projects\8.png" alt="Geospatial Visualization of Personal Mobility Patterns using Google Maps" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
-      </div>
-      
-      
-      <!-- Project 9 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-slideshow"></i></div>
-          <h4><a href="https://storymaps.arcgis.com/stories/bf9a80a2b47347f4a9b5459d89f12e62" target="_blank">A Comprehensive Analysis of Flooding in the Red River Valley</a></h4>
-          <p>A semester group project that I did for GIS 8501 (GIS Project Management and Professional Development) course.</p>
-          <div class="icon-img">
-            <a href="https://storymaps.arcgis.com/stories/bf9a80a2b47347f4a9b5459d89f12e62" target="_blank">
-              <img src="assets\img\Projects\9.jpg" alt="A Comprehensive Analysis of Flooding in the Red River Valley" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
-      </div>
-
-      
-      <!-- Project 10 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-arch"></i></div>
-          <h4><a href="#">Mapping existing underground gas pipeline network of several cities</a></h4>
-          <p>A team project that I was part of while working for Sui Southern Gas Company Ltd. It involved surveying, collecting and compiling all relevant data, digitizing, extensive data wrangling, analysis, and mapping.</p>
-          <div class="icon-img">
-            <a href="#">
-              <img src="assets\img\Projects\10.jpg" alt="Mapping existing underground gas pipeline network of several cities" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
-      </div>
-                  
-
-      <!-- Project 11 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+        <!-- Others Tab Pane -->
+        <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
+          <div class="row">
+            <!-- Project 5 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                <h4><a href="#">District Level Site Suitability of CCPP: EESD Conference Paper</a></h4>
+                <p>A conference paper presented at Energy, Environment, and Sustainable Development 2022.</p>
+                <div class="icon-img">
+                  <a href="#">
+                    <img src="assets\img\Projects\5.jpg" alt="District Level Site Suitability of CCPP: EESD Conference Paper" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- Project 7 -->
+            <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-arch"></i></div>
+                <h4><a href="#">Mapping existing underground gas pipeline network of several cities</a></h4>
+                <p>A team project that I was part of while working for Sui Southern Gas Company Ltd. It involved surveying, collecting and compiling all relevant data, digitizing, extensive data wrangling, analysis, and mapping.</p>
+                <div class="icon-img">
+                  <a href="#">
+                    <img src="assets\img\Projects\7.jpg" alt="Mapping existing underground gas pipeline network of several cities" style="width: 100%; height: auto;">
+                  </a>
+                </div>
+              </div>
+            </div>
+ 
+            <!-- Project 11 -->
+        <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
         <div class="icon-box">
           <div class="icon"><i class="bx bx-world"></i></div>
           <h4><a href="https://be494d35-ebbb-448b-b710-fd1338c53a5d.filesusr.com/ugd/7fd364_44b37f3427df4ba39a900b489fc6f43c.pdf" target="_blank">Design & Fabrication Of Solar Dish Stirling Engine</a></h4>
@@ -552,40 +627,14 @@
         </div>
       </div>
 
-      <!-- Project 12 -->
-      <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-        <div class="icon-box">
-          <div class="icon"><i class="bx bx-slideshow"></i></div>
-          <h4><a href="https://storymaps.arcgis.com/stories/e385aa7fe7d44988b76a0c5ea8eedc23" target="_blank">A breakdown of poverty in Minnesota</a></h4>
-          <p>A class project that I did for GIS 5511 (Principles of Cartography) course.</p>
-          <div class="icon-img">
-            <a href="https://storymaps.arcgis.com/stories/e385aa7fe7d44988b76a0c5ea8eedc23" target="_blank">
-              <img src="assets\img\Projects\12.png" alt="A breakdown of poverty in Minnesota" style="width: 100%; height: auto;">
-            </a>
-          </div>
-        </div>
       </div>
 
-
-        <!-- Project 13 -->
-        <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-slideshow"></i></div>
-            <h4><a href="https://drive.google.com/file/d/1DCTuvu13ru8q-lbe8V83x8Q-JEFRfLhJ/view?usp=sharing" target="_blank">Assessment of Carbon Storage Potential</a></h4>
-            <p>
-              The project focuses on analyzing carbon storage dynamics within a study area, utilizing datasets such as Land Use and Land Cover (LULC) and biomass carbon density maps. Geoprocessing tools are employed to extract and analyze carbon storage values across different land cover types. The project emphasizes meticulous data validation and adjustment to ensure accuracy and reliability, contributing to meaningful insights into carbon storage patterns.</p>
-            <div class="icon-img">
-              <a href="https://drive.google.com/file/d/1DCTuvu13ru8q-lbe8V83x8Q-JEFRfLhJ/view?usp=sharing" target="_blank">
-                <img src="assets\img\Projects\13.png" alt="A breakdown of poverty in Minnesota" style="width: 100%; height: auto;">
-              </a>
-            </div>
-          </div>
-        </div>
     </div>
+  </section>
+  <!-- End Projects Section -->
 
-  </div>
-</section>
-<!-- End Projects Section -->
+
+
 
 
 
